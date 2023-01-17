@@ -1,0 +1,10 @@
+$header-bg-color: #f55a5a;
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 55px;
+  background-color: $header-bg-color;
+}
