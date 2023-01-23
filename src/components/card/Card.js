@@ -7,8 +7,8 @@ function Card(props) {
       <div className="card__img-container">
         <img
           className="card__img"
-          height="168"
-          width="125"
+          height="175"
+          width="263"
           src={`${props.imageUrl}`}
           alt={`${props.title}`}
         />
