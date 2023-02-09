@@ -9,8 +9,8 @@ function Card(props) {
           className="card__img"
           height="175"
           width="263"
-          src={`${props.imageUrl}`}
-          alt={`${props.title}`}
+          src={props.imageUrl}
+          alt={props.title}
         />
       </div>
       <div className="card__content-container">
@@ -34,7 +34,7 @@ function Card(props) {
           </div>
           <a
             className="card__link"
-            href={`${props.googleMapsUrl}`}
+            href={props.googleMapsUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
